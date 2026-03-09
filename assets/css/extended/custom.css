@@ -1,0 +1,13 @@
+/* 文章内图片样式 */
+.post-content img {
+    border: 2px solid #e0e0e0;
+    /* 边框 */
+    border-radius: 10px;
+    /* 圆角 */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    /* 阴影 */
+    padding: 4px;
+    /* 内边距 */
+    max-width: 100%;
+    /* 不超出页面宽度 */
+}

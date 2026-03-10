@@ -1,0 +1,43 @@
+/* 隐藏原来的 TOC */
+.toc {
+    display: none;
+}
+
+/* 左侧固定侧边栏 TOC */
+.toc-sidebar {
+    position: fixed;
+    left: 20px;
+    top: 100px;
+    width: 220px;
+    max-height: 80vh;
+    overflow-y: auto;
+    font-size: 14px;
+    padding: 12px;
+    background: var(--entry);
+    border-radius: 8px;
+    border-left: 3px solid var(--primary);
+}
+
+.toc-sidebar strong {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 15px;
+}
+
+.toc-sidebar a {
+    display: block;
+    padding: 3px 0;
+    color: var(--secondary);
+    text-decoration: none;
+}
+
+.toc-sidebar a:hover {
+    color: var(--primary);
+}
+
+/* 屏幕太窄时隐藏（手机端） */
+@media (max-width: 1200px) {
+    .toc-sidebar {
+        display: none;
+    }
+}

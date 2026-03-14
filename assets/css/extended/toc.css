@@ -3,12 +3,12 @@
     position: fixed;
     left: 20px;
     top: 100px;
-    width: 220px;
+    width: 180px;
     max-height: 80vh;
     overflow-y: auto;
     font-size: 14px;
     padding: 12px;
-    background: var(--entry);
+    background: rgba(var(--primary), 0.6);
     border-radius: 8px;
     border-left: 3px solid var(--primary);
 }
